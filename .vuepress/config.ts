@@ -15,33 +15,50 @@
       authorAvatar: "/me02.jpg",
       docsRepo: "https://github.com/exereyer/myblog",
       docsBranch: "main",
-      docsDir: '/docs',
+      docsDir: '',
       lastUpdatedText: "",
+      // 自动设置分类
+      autoSetBlogCategories: true,
+      catalogTitle: '此页内容',
       primaryColor: '#004e89',
-      // series 为原 sidebar
+      // series
       series: {
-        "/docs/theme-reco/": [
+        "/docs/notes/": [
           {
-            text: "module one",
-            children: ["home", "theme"],
+            text: "k8s",
+            children: ["k8s", "cka"],
           },
           {
-            text: "module two",
-            children: ["api", "plugin"],
+            text: "代理服务器",
+            children: ["nginx", "tomcat"],
+          },
+          {
+            text: "数据库",
+            children: ["mysql", "oracle"],
+          },
+          {
+            text: "容器化",
+            children: ["docker", "containerd"],
+          },
+          {
+            text: "Linux",
+            children: ["basic", "advance"],
           },
         ],
       },
       navbar: [
         { text: "Home", link: "/" },
-        { text: "简历", link: "/docs/cv/" },
-        { text: "cfg-36", link: "/tags/tag1/1/" },
+        { text: "简历", link: "/docs/cv/mycv" },
+        { text: "收藏夹", link: "/docs/favs/favorites", icon: 'Star' },
         {
           text: "Docs",
           children: [
-            { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-            { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+            { text: "学习笔记", link: "/docs/notes/GoOn" },
+            { text: "多多反思", link: "/blogs/index/guide" },
           ],
+          icon: 'Document' 
         },
+        { text: '留言板', link: '/docs/message-board', icon: 'Chat' },
       ],
       // commentConfig: {
       //   type: 'valine',

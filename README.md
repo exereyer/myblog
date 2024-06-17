@@ -3,7 +3,6 @@ home: true
 modules: # 指定首页展示模块
   - BannerBrand
   - Blog
-  - MdContent
   - Features
   - Footer
 bannerBrand: # bannerBrand 模块的配置
@@ -14,8 +13,8 @@ bannerBrand: # bannerBrand 模块的配置
   bgImageStyle:
     height: 950px
   buttons:
-    - { text: 浏览博客, link: '/docs/guide/introduce' }
-    - { text: 我的简历, link: '/docs/theme/introduce', type: 'plain' }
+    - { text: 浏览博客, link: '/docs/guide/introduce/' }
+    - { text: 我的简历, link: '/docs/cv/', type: 'plain' }
   socialLinks: # 社交地址
     - { icon: 'LogoGithub', link: 'https://github.com/exereyer/' }
 blog: # blog 模块的配置
