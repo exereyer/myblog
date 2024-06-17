@@ -36,6 +36,25 @@ const bar = 'bar'
 ::::
 
 
+使用 git add 命令将文件添加到暂存区。例如，如果你想添加所有未跟踪的文件，可以使用：
+bash
+复制代码
+git add .
+这个命令会添加当前目录下的所有文件。如果你只想添加某些文件，可以指定文件名，例如：
+
+bash
+复制代码
+git add README.md .gitignore
+然后，进行提交：
+bash
+复制代码
+git commit -m "初始提交"
+
+
+git push -u origin main
+
+
+
 
 
 

@@ -7,16 +7,16 @@ modules: # 指定首页展示模块
   - Footer
 bannerBrand: # bannerBrand 模块的配置
   title: 刘志刚
-  description: 你好！
-  tagline: 逆水行舟，不进则退
+  description: 逆水行舟，不进则退
+  tagline: 此博客基于vuepress-reco 主题搭建，该主题的作者是recoluan。没有他的努力与付出和可贵的开源精神像我这种只有一些前端基础的人不可能做出如此精美的博客。“浏览博客”按钮下方的github图标链接了该作者的账号。
   bgImage: http://127.0.0.1:7788/myblog/begin.gif
   bgImageStyle:
     height: 950px
   buttons:
-    - { text: 浏览博客, link: '/docs/guide/introduce/' }
-    - { text: 我的简历, link: '/docs/cv/', type: 'plain' }
+    - { text: 浏览博客, link: '/docs/notes/GoOn' }
+    - { text: 我的简历, link: '/docs/cv/mycv', type: 'plain' }
   socialLinks: # 社交地址
-    - { icon: 'LogoGithub', link: 'https://github.com/exereyer/' }
+    - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
 blog: # blog 模块的配置
   socialLinks: # 社交地址
     - { icon: 'LogoGithub', link: 'https://github.com/exereyer' }
