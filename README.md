@@ -9,7 +9,7 @@ bannerBrand: # bannerBrand 模块的配置
   title: 刘志刚
   description: 逆水行舟，不进则退
   tagline: 此博客基于vuepress-reco 主题搭建，该主题的作者是recoluan。没有他的努力与付出和可贵的开源精神像我这种只有一些前端基础的人不可能做出如此精美的博客。“浏览博客”按钮下方的github图标链接了该作者的账号。
-  bgImage: http://127.0.0.1:7788/myblog/begin.gif
+  bgImage: /bg.jpg
   bgImageStyle:
     height: 950px
   buttons:
@@ -19,7 +19,7 @@ bannerBrand: # bannerBrand 模块的配置
     - { icon: 'LogoGithub', link: 'https://github.com/recoluan' }
 blog: # blog 模块的配置
   socialLinks: # 社交地址
-    - { icon: 'LogoGithub', link: 'https://github.com/exereyer' }
+    - { icon: 'LogoGithub', link: 'https://gitee.com/exereyer' }
 features:
 - title: 《教父》
   details: 我花了一辈子就学会了“小心”，女人和小孩能够粗心大意，可我作为一家之主不行。

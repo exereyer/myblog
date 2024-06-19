@@ -1,7 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { viteBundler } from '@vuepress/bundler-vite'
-import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
   title: "cd ~",
@@ -13,7 +12,7 @@ export default defineUserConfig({
     logo: "/logo.png",
     author: "zhigang.liu",
     authorAvatar: "/me.jpg",
-    docsRepo: "https://github.com/exereyer/myblog",
+    docsRepo: "https://gitee.com/exereyer/myblog/",
     docsBranch: "main",
     docsDir: '',
     lastUpdatedText: "",
